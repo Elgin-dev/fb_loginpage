@@ -1,0 +1,126 @@
+body,#login{
+    text-align: center;
+    
+    padding-top: 70px;
+    background-color: whitesmoke;
+}
+h1{
+    font-family: Helvetica  ;
+    font-size: 100px;
+    color: rgb(28, 103, 233);
+    padding-right: 60%;
+   position: relative;
+    top: 70px;
+    left: 70px;
+    
+}
+input{
+    
+    height: 35px;
+    padding-left: 12px;
+    margin-bottom: 23px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
+label{
+    text-decoration: solid;
+    text-decoration-thickness: 3px;
+    color: beige;
+}
+#box{
+    border: 3px solid rgba(255, 255, 255, 0.705);
+    box-shadow: 5px 5px 20px rgb(114, 113, 113);
+   width: 200px;
+   height: 200px;
+   position: relative;
+   
+    background-color: rgba(255, 255, 255, 0.978);
+  border-radius: 35px;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 120px;
+  padding-bottom: 130px;
+
+  margin-left: 700px;
+  margin-top: -200px;
+  
+
+}
+#log{
+    border-radius: 10px;
+    width: 270px;
+    background-color:rgb(28, 103, 233);
+    color: white;
+    font-family:  Helvetica;
+    font-size: medium;
+    height: 38px;
+}
+#log:hover{
+    background-color: rgb(58, 81, 231);
+}
+p{
+    color:rgb(28, 103, 233);
+    padding-left: 60px;
+    font-size: 15px;
+}
+hr{
+    color: rgb(113, 113, 113);
+    width: 250px;
+    padding-left: -40px;
+    size: 300px;
+}
+#create{
+    background-color: rgb(106, 179, 33);
+    color: white;
+    font-family:  Helvetica;
+   font-size: 15px;
+    
+    border-radius: 10px;
+    height: 40px;
+    width:200px;
+    margin-left: 30px;
+}
+#create:hover{
+    background-color: rgb(75, 176, 52);
+
+}
+h3{
+    position: relative;
+    font-family:  Helvetica;
+    font-size: 25px;
+    color:black;
+    margin-right: 700px;
+    margin-top: 25px;
+}
+
+#hi{
+    font-family: Helvetica;
+   text-align: center;
+    color:aliceblue;
+    background-color:rgb(28, 103, 233) ;
+    width: 110px;
+    padding-left: 460px;
+    left: 60px;
+    margin-left: -70px;
+    margin-top: -140px;   
+    
+}
+#hello{
+    font-family:  Helvetica;
+    color:rgb(18, 18, 248);
+    font-weight: 600;
+    font-size: larger;
+}
+@media(max-width:300px){
+    .body login{
+         width: 100px;
+         height: auto; 
+    }
+    .container h1{
+        width: 100px;
+        height: auto; 
+        text-align: center;
+    }
+}
+
